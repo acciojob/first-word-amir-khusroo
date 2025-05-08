@@ -1,5 +1,11 @@
 function firstWord(s) {
   // your code here
+	const idx=s.indexOf(' ');
+	if(idx==-1){
+		return s;
+	}
+	return s.substring(0,idx);
+	
 }
 
 // Do not change the code below
